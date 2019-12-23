@@ -1,0 +1,15 @@
+title: scrollif-assets
+url: https://scrollif-assets.netlify.com
+twitter: 
+markdown: kramdown
+plugins_dir: _plugins
+data_dir: _data
+layouts_dir: _layouts
+includes_dir: _includes
+include: ['_headers']
+sass:
+  sass_dir: assets/css/_sass
+  style: expanded
+collections:
+  navigation:
+    output: true 
