@@ -30,7 +30,7 @@
 #powered-by-scroll-if a div.max-width-container {
 	width: 100%;
 	max-width: var(--max-width-container);
-	margin-left: auto auto;
+	margin: auto auto;
 	position: relative;
 	padding: 15px;
 }
@@ -38,19 +38,19 @@
 	display: block;
 	font-family: 'Quicksand-Regular';
 	color: #333333;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 400;
-	margin-top: 0 0 5px;
+	margin: 0 0 5px;
 }
 #powered-by-scroll-if a div.max-width-container .logo {
 	width: auto;
-	height: 45px;
+	height: 40px;
 }
 #powered-by-scroll-if a div.max-width-container .copyright {
 	display: block;
 	font-family: 'Quicksand-Regular';
 	color: #333333;
-	font-size: 12.5px;
+	font-size: 6px;
 	font-weight: 400;
 	margin: 15px 0 0 0;
 }
