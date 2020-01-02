@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Scroll If Assets"
+AuthUserFile /.htpasswd
+Require valid-user
