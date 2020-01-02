@@ -6,7 +6,7 @@ plugins_dir: _plugins
 data_dir: _data
 layouts_dir: _layouts
 includes_dir: _includes
-include: ['_headers']
+include: ['_headers', '.htaccess', 'htpasswd']
 sass:
   sass_dir: assets/css/_sass
   style: expanded

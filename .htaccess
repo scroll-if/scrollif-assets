@@ -1,3 +1,7 @@
+---
+layout: null
+permalink: /.htaccess
+---
 AuthType Basic
 AuthName "Scroll If Assets"
 AuthUserFile /.htpasswd
