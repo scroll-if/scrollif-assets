@@ -1,0 +1,32 @@
+---
+layout: v1.0
+title: 
+url: /
+permalink: /
+menus:
+ navbar:
+  title: Powered-By
+  weight: 1
+  identifier: powere-by
+description:
+abstract:
+subject:
+keywords:
+object-type:
+author-facebook:
+author-twitter: 
+---
+
+<div style="height: 100vh;">
+	<div style="position: absolute; bottom: 0">
+
+		{% assign powered-by = 'https://scrollif-assets.netlify.com/websites/components/powered-by/html/powered-by.html' %}
+
+		{% capture date %}
+			{{ site.time | date: '%Y' }}
+		{% endcapture %}
+
+		{% include_remote {{ powered-by }} date=date %}
+
+	</div>
+</div>
