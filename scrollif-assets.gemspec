@@ -14,6 +14,6 @@ Gem::Specification.new do |spec|
   spec.files = ["README.md"]
   spec.add_dependency "bundler",         ">= 1.3.0"
   # This is our gem dependency
-  s.add_dependency "include_remote"
+  s.add_dependency "jekyll-minifier"
   s.add_dependency "jekyll-remote-include"
 end
