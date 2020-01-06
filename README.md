@@ -1,4 +1,4 @@
 # scrollif-assets.netlify.com
 Assets for Scroll If's websites and projects
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/04978fe7-f43c-42a0-9bfd-487e31e3e35c/deploy-status)](https://app.netlify.com/sites/scrollif-assets/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88de7d5b-7971-4cc6-9845-487b63d9fb56/deploy-status)](https://app.netlify.com/sites/scrollif-assets/deploys)
