@@ -17,13 +17,9 @@ class Jekyll::IncludeRemoteTag < Jekyll::Tags::IncludeTag
     if url !~ URI::regexp
       raise ArgumentError.new <<-eos
 Invalid syntax for include_remote tag. URL contains invalid characters or sequences:
-
 #{url}
-
 Valid syntax:
-
 #{syntax_example}
-
 eos
     end
   end
