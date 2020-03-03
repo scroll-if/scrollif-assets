@@ -7,7 +7,7 @@
 	<meta name="google" content="nositelinkssearchbox"/>
 	<meta name="google" content="notranslate"/>
 <!-- WEBPAGE DETAILS -->
-	<title>{{ page.title }} | {{ site.title }}</title>
+	<title>{{ page.title | liquefy }} | {{ site.title }}</title>
 	<meta name="url" content="{{ site.url }}{% if page.url <> '/' %}{{ page.url }}{% endif %}"/>
 	<meta name="description" content="{{ page.description }}"/>
 	<meta name="abstract" content="{{ page.abstract }}"/>
