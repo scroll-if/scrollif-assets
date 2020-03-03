@@ -1,5 +1,4 @@
-# https://github.com/sonirico/liquefy
-# https://stackoverflow.com/questions/39858593/how-to-manually-process-liquid-tags-in-jekyll
+# https://github.com/vividh/liquify
 
 module Jekyll
     module LiquifyFilter
