@@ -1,4 +1,5 @@
-/* COLORS & FONTS */
+:root {
+	/* COLORS & FONTS */
 	--color-primary: #33CCFF;
 	--color-secondary: #333333;
 	--color-tertiary: #CCCCCC;
@@ -32,3 +33,4 @@
 
 /* LOADING SCREEN */
 	--loading-screen-bgcolor: var(--color-white);
+	}
