@@ -1,4 +1,4 @@
-
+:root {
 	/* COLORS & FONTS */
 		--color-primary: #33CCFF;
 		--color-secondary: #333333;
@@ -30,6 +30,4 @@
 
 	/* TRANSITIONS */
 		--transition-speed: 250ms;
-
-	/* LOADING SCREEN */
-		--loading-screen-bgcolor: var(--color-white);
+}
