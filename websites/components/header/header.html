@@ -5,7 +5,11 @@
 				<img class="logo" src="{{ site.url }}/assets/images/logo_{{ site.title | replace: ' ', '_' | downcase }}.png" alt="{{ site.title }} Logo"/>
 				<p class="logo-name">{{ site.title }}</p>
 			</a>
-			{% remote_include https://scrollif-assets.netlify.com/websites/components/navbar/navbar.html %}
+			{% capture navbar-html %}
+				{% remote_include https://scrollif-assets.netlify.com/websites/components/navbar/navbar.html %}
+			{% endcapture %}
+
+			{{ navbar-html | liquify }}
 		</div>
 	</div>
 </header>
