@@ -1,5 +1,5 @@
 :root {
-	--loading-screen-bgcolor: var(--color-white);
+	--loading-screen-bgcolor: var(--color-white, #FFFFFF);
 }
 div.loading-screen {
 	-webkit-z-index: 9999;

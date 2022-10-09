@@ -29,7 +29,7 @@
 }
 #powered-by-scroll-if a div.max-width-container {
 	width: 100%;
-	max-width: var(--max-width-container);
+	max-width: var(--max-width-container, 1200px);
 	margin: auto auto;
 	position: relative;
 	padding: 15px;
