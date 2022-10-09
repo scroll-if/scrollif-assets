@@ -1,4 +1,4 @@
 title: scrollif-assets
-url: https://scrollif-assets.netlify.com
+url: https://scrollif-assets.netlify.app
 markdown: kramdown
 include: ['_headers']
