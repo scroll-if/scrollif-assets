@@ -259,11 +259,11 @@
 	}
 /* TRANSITIONS */
 	* {
-		-webkit-transition: all var(--transition-speed) linear;
-		-moz-transition: all var(--transition-speed) linear;
-		-o-transition: all var(--transition-speed) linear;
-		-ms-transition: all var(--transition-speed) linear;
-		transition: all var(--transition-speed) linear;
+		-webkit-transition: background-color var(--transition-speed) linear, color var(--transition-speed) linear, border-color var(--transition-speed) linear, visibility var(--transition-speed) linear, opacity var(--transition-speed) linear;
+		-moz-transition: background-color var(--transition-speed) linear, color var(--transition-speed) linear, border-color var(--transition-speed) linear, visibility var(--transition-speed) linear, opacity var(--transition-speed) linear;
+		-o-transition: background-color var(--transition-speed) linear, color var(--transition-speed) linear, border-color var(--transition-speed) linear, visibility var(--transition-speed) linear, opacity var(--transition-speed) linear;
+		-ms-transition: background-color var(--transition-speed) linear, color var(--transition-speed) linear, border-color var(--transition-speed) linear, visibility var(--transition-speed) linear, opacity var(--transition-speed) linear;
+		transition: background-color var(--transition-speed) linear, color var(--transition-speed) linear, border-color var(--transition-speed) linear, visibility var(--transition-speed) linear, opacity var(--transition-speed) linear;
 	}
 /* TRANSITION & HOVER STATES */
 	.cursor-pointer {
