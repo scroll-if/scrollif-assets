@@ -1,9 +1,11 @@
-# https://github.com/forestryio/jekyll-menus
+# Frozen-string-literal: true
+# Copyright: 2015 Forestry.io - MIT License
+# Encoding: utf-8
 
 module Jekyll
   class Menus
-    autoload :Utils, "lib/page_menus/utils"
-    autoload :Drops, "lib/page_menus/drops"
+    autoload :Utils, "jekyll/menus/utils"
+    autoload :Drops, "jekyll/menus/drops"
 
     def initialize(site)
       @site = site
@@ -232,4 +234,4 @@ module Jekyll
   end
 end
 
-require "lib/page_menus/hook"
+require "jekyll/menus/hook"
