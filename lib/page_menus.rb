@@ -2,8 +2,8 @@
 
 module Jekyll
   class Menus
-    autoload :Utils, "lib/page-menus/utils"
-    autoload :Drops, "lib/page-menus/drops"
+    autoload :Utils, "lib/page_menus/utils"
+    autoload :Drops, "lib/page_menus/drops"
 
     def initialize(site)
       @site = site
@@ -232,4 +232,4 @@ module Jekyll
   end
 end
 
-require "lib/page-menus/hook"
+require "lib/page_menus/hook"
