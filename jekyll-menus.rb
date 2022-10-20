@@ -2,4 +2,4 @@
 # Copyright: 2015 Forestry.io - MIT License
 # Encoding: utf-8
 
-require "lib/page_menus"
+require "jekyll/menus"
