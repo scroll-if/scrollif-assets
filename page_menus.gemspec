@@ -1,3 +1,5 @@
+$LOAD_PATH.unshift(File.expand_path("../lib", __FILE__))
+
 Gem::Specification.new do |spec|
   spec.name        = "page_menus"
   spec.version     = '1.0.0'
