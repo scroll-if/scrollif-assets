@@ -3,7 +3,7 @@
 require 'uglifier'
 require 'htmlcompressor'
 require 'cssminify2'
-require 'json-minify'
+require 'json/minify'
 
 module Jekyll
   module Compressor
