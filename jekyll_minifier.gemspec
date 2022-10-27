@@ -1,9 +1,9 @@
 Gem::Specification.new do |spec|
-  spec.name        = "jekyll-minifier"
+  spec.name        = "jekyll_minifier"
   spec.version     = '1.0.0'
   spec.summary     = "Jekyll plugin to Minifies HTML, XML, CSS, JSON and JavaScript both inline and as separate files."
   spec.authors     = ["https://github.com/digitalsparky/jekyll-minifier"]
-  spec.files       = ["lib/jekyll-minifier.rb"]
+  spec.files       = ["lib/jekyll_minifier.rb"]
   spec.require_paths = ["lib"]
   spec.license       = 'MIT'
   spec.required_ruby_version = ">= 2.0.0"
