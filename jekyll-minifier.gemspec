@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.license       = 'MIT'
   spec.required_ruby_version = ">= 2.0.0"
-  spec.add_dependency "jekyll", ">= 3.5"
-  spec.add_dependency "uglifier", "~> 4.1"
-  spec.add_dependency "htmlcompressor", "~> 0.4"
-  spec.add_dependency "cssminify2", "~> 2.0"
-  spec.add_dependency "json-minify", "~> 0.0.3"
+  spec.add_runtime_dependency ('jekyll', '>= 3.5')
+  spec.add_runtime_dependency ('uglifier', '~> 4.1')
+  spec.add_runtime_dependency ('htmlcompressor', '~> 0.4')
+  spec.add_runtime_dependency ('cssminify2', '~> 2.0')
+  spec.add_runtime_dependency ('json-minify', '~> 0.0.3')
 end
