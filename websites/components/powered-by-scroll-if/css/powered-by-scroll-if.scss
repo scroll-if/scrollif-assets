@@ -17,12 +17,12 @@
 }
 #powered-by-scroll-if a div.max-width-container {
 	width: 100%;
-	max-width: var(--max-width-container, 1200px);
+	max-width: var(--max-width-container);
 	margin: auto auto;
 	position: relative;
 	padding: 15px;
 }
-#powered-by-scroll-if a div.max-width-container .caption {
+#powered-by-scroll-if a div.max-width-container p.caption {
 	display: block;
 	font-family: 'Quicksand-Regular';
 	color: #333333;
@@ -30,11 +30,11 @@
 	font-weight: 800;
 	margin: 0 0 5px;
 }
-#powered-by-scroll-if a div.max-width-container .logo {
+#powered-by-scroll-if a div.max-width-container img.logo {
 	width: auto;
 	height: 25px;
 }
-#powered-by-scroll-if a div.max-width-container .copyright {
+#powered-by-scroll-if a div.max-width-container p.copyright {
 	display: block;
 	font-family: 'Quicksand-Regular';
 	color: #666666;
