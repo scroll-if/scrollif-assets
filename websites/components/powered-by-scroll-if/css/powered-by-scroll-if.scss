@@ -1,4 +1,16 @@
 @font-face {
+  font-family: "Quicksand-Bold";
+  src: url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.eot"); /* IE9 Compat Modes */
+  src: url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.otf") format("opentype"), /* Open Type Font */
+    url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.svg") format("svg"), /* Legacy iOS */
+    url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.woff") format("woff"), /* Modern Browsers */
+    url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Bold/Quicksand-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Quicksand-Regular";
   src: url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Regular/Quicksand-Regular.eot"); /* IE9 Compat Modes */
   src: url("https://scrollif-assets.netlify.app/websites/components/powered-by-scroll-if/fonts/Quicksand-Regular/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -24,10 +36,9 @@
 }
 #powered-by-scroll-if a div.max-width-container p.caption {
 	display: block;
-	font-family: 'Quicksand-Regular';
+	font-family: 'Quicksand-Bold';
 	color: #333333;
 	font-size: 14px;
-	font-weight: 800;
 	margin: 0 0 5px;
 	vertical-align: bottom;
 	line-height: 1;
@@ -43,7 +54,6 @@
 	font-family: 'Quicksand-Regular';
 	color: #666666;
 	font-size: 10px;
-	font-weight: 400;
 	margin: 10px 0 0 0;
 	vertical-align: bottom;
 	line-height: 1;
