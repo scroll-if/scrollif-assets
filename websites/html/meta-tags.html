@@ -19,7 +19,7 @@
 	<meta property="og:url" content="{{ site.url }}{% if page.url <> '/' %}{{ page.url }}{% endif %}"/>
 	<meta property="og:type" content="{{ page.object-type }}"/>
 	<meta property="og:title" content="{{ page.title }} | {{ site.title }}"/>
-	<meta property="og:image" content="{{ site.url }}/assets/og-image.jpg"/>
+	<meta property="og:image" content="{% if page.og-image %}{{ site.url }}/assets/{{ page.title | replace: ' ', '_' | downcase }} }}_og_image.jpg {% else %}{{ site.url }}/assets/og_image.jpg{% endif %}"/>
 	<meta property="og:description" content="{{ page.description }}"/>
 	{% if page.object-type == article %}
 	<meta property="og:site_name" content="{{ site.url }}"/>
@@ -34,5 +34,5 @@
 	<meta name="twitter:url" content="{{ site.url }}{% if page.url <> '/' %}{{ page.url }}{% endif %}"/>
 	<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}"/>
 	<meta name="twitter:description" content="{{ page.description }}"/>
-	<meta name="twitter:image" content="{{ site.url }}/assets/twitter-image.jpg"/>
+	<meta name="twitter:image" content="{% if page.twitter-image %}{{ site.url }}/assets/{{ page.title | replace: ' ', '_' | downcase }} }}_twitter_image.jpg {% else %}{{ site.url }}/assets/twitter_image.jpg{% endif %}"/>
 	<meta name="twitter:dnt" content="on"/>
