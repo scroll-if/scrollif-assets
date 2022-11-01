@@ -8,7 +8,7 @@ $(document).ready(function(){
       event.preventDefault();
 
       // Store hash
-      var hash = this.hash;
+      var hash = $(this).prop("hash");
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
