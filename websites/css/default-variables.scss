@@ -24,10 +24,11 @@
 		--max-width-container: 1200px;
 		--header-height: 70px;
 
-	/* BORDERS & BOX SHADOWS */
+	/* BORDERS & SHADOWS */
 		--box-shadow: 0 0 5px 1px var(--color-black);
 		--box-shadow-bottom: 0 5px 5px -3px var(--color-black);
 		--box-shadow-bottom-right: 2px 2px 5px -2px var(--color-black);
+		--text-shadow: 2px 2px 3px var(--color-light-grey);
 
 	/* TRANSITIONS */
 		--transition-speed: 250ms;
