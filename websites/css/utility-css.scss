@@ -31,3 +31,7 @@
 		visibility: hidden; 
 		pointer-events: none;
 	}
+	div.hero-image-full {
+    	height: calc(100vh - var(--header-height)); 
+        width: 100%;
+    }
