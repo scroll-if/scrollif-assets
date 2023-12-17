@@ -14,11 +14,17 @@
 		--font-tertiary: Sans-Serif;
 		--font-weight-tertiary: 400;
 		--font-xxs: 0.75rem;
+		--margin-xxs: calc(var(--font-xxs)/2.5) 0 calc(var(--font-xxs)/2.5);
 		--font-xs: 1rem;
+		--margin-xs: calc(var(--font-xs)/2.5) 0 calc(var(--font-xs)/2.5);
 		--font-s: 1.25rem;
+		--margin-s: calc(var(--font-s)*1.5) 0 calc(var(--font-s)/1.5);
 		--font-m: 1.5rem;
+		--margin-m: calc(var(--font-m)*1.5) 0 calc(var(--font-m)/1.5);
 		--font-l: 2rem;
+		--margin-l: calc(var(--font-l)*1) 0 calc(var(--font-xl)/2);
 		--font-xl: 3rem;
+		--margin-xl: calc(var(--font-xl)*1) 0 calc(var(--font-xl)/2);
 
 	/* CONTAINERS ETC. */
 		--max-width-container: 1200px;
