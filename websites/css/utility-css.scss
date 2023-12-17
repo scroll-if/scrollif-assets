@@ -6,20 +6,6 @@
 		margin-right: auto;
 		position: relative;
 	}
-	div.max-width-container-two-thirds {
-			width: 100%;
-			max-width: calc(var(--max-width-container) / 1.5);
-			margin-left: auto;
-			margin-right: auto;
-			position: relative;
-		}
-	div.max-width-container-half {
-			width: 100%;
-			max-width: calc(var(--max-width-container) / 2);
-			margin-left: auto;
-			margin-right: auto;
-			position: relative;
-		}
 	div.header-offset {
 		height: var(--header-height);
 	}
@@ -31,7 +17,3 @@
 		visibility: hidden; 
 		pointer-events: none;
 	}
-	div.hero-image-full {
-    	height: calc(100vh - var(--header-height)); 
-        width: 100%;
-    }
