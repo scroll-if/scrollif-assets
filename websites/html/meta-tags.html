@@ -34,7 +34,7 @@
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:site" content="{{ site.twitter }}"/>
 	{% if page.object-type == article %}
-	<meta name="twitter:creator" content="page.author-twitter"/>
+	<meta name="twitter:creator" content="{{ page.author-twitter }}"/>
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{% if page.url <> '/' %}{{ page.url }}{% endif %}"/>
 	<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}"/>
