@@ -34,8 +34,9 @@
 
 	/* CONTAINERS ETC. */
 		--max-width-container: 1200px;
-		--header-height: 70px;
+		--header-image-height: 40px;
 		--default-padding: 15px;
+		--header-height: calc(var(--header-image-height) + calc(var(--default-padding) * 2));
 
 	/* BORDERS & SHADOWS */
 		--box-shadow: 0 0 5px 1px var(--color-black);
