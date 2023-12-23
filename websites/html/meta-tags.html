@@ -3,11 +3,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- ROBOTS -->
 	{% if page.index-follow == "no" %}
-	<meta name="robots" content="noindex, nofollow, noodp, noydir"/>
-	<meta name="googlebot" content="noindex, nofollow, noodp, noydir"/>
-	{% else %}
 	<meta name="robots" content="index, follow, noodp, noydir"/>
 	<meta name="googlebot" content="index, follow, noodp, noydir"/>
+	{% else %}
+	<meta name="robots" content="noindex, nofollow, noodp, noydir"/>
+	<meta name="googlebot" content="noindex, nofollow, noodp, noydir"/>
 	{% endif %}
 	<meta name="google" content="nositelinkssearchbox"/>
 	<meta name="google" content="notranslate"/>
