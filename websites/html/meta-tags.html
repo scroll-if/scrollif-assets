@@ -2,8 +2,13 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- ROBOTS -->
+	{% if page.noindex-nofollow == "true" %}
+	<meta name="robots" content="noindex, nofollow, noodp, noydir"/>
+	<meta name="googlebot" content="noindex, nofollow, noodp, noydir"/>
+	{% else %}
 	<meta name="robots" content="index, follow, noodp, noydir"/>
-	<meta name="googlebot" content="index, follow, noodp"/>
+	<meta name="googlebot" content="index, follow, noodp, noydir"/>
+	{% endif %}
 	<meta name="google" content="nositelinkssearchbox"/>
 	<meta name="google" content="notranslate"/>
 <!-- WEBPAGE DETAILS -->
