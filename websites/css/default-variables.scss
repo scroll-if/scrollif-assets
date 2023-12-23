@@ -34,9 +34,10 @@
 
 	/* CONTAINERS ETC. */
 		--max-width-container: 1200px;
-		--header-image-height: 40px;
 		--default-padding: 15px;
+		--header-image-height: 40px;
 		--header-height: calc(var(--header-image-height) + calc(var(--default-padding) * 2));
+		--header-navbar-min-width: 1025px;
 
 	/* BORDERS & SHADOWS */
 		--box-shadow: 0 0 5px 1px var(--color-black);
