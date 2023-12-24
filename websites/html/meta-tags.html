@@ -2,7 +2,7 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- ROBOTS -->
-	{% if page.index-follow == no %}
+	{% if page.bots == "noindex-nofollow" %}
 	<meta name="robots" content="noindex, nofollow, noodp, noydir"/>
 	<meta name="googlebot" content="noindex, nofollow, noodp, noydir"/>
 	{% else %}
@@ -26,14 +26,14 @@
 	<meta property="og:title" content="{{ page.title }} | {{ site.title }}"/>
 	<meta property="og:image" content="{% if page.og-image %}{{ site.url }}/assets/{{ page.title | replace: ' ', '_' | downcase }} }}_og_image.jpg {% else %}{{ site.url }}/assets/og_image.jpg{% endif %}"/>
 	<meta property="og:description" content="{{ page.description }}"/>
-	{% if page.object-type == article %}
+	{% if page.object-type == "article" %}
 	<meta property="og:site_name" content="{{ site.url }}"/>
 	<meta property="article:author" content="{{ page.author-facebook }}"/>
 	{% endif %}
 <!-- TWITER CARD -->
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:site" content="{{ site.twitter }}"/>
-	{% if page.object-type == article %}
+	{% if page.object-type == "article" %}
 	<meta name="twitter:creator" content="{{ page.author-twitter }}"/>
 	{% endif %}
 	<meta name="twitter:url" content="{{ site.url }}{% if page.url <> '/' %}{{ page.url }}{% endif %}"/>
